@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    main{
+        background-color: azure;
+        width: 30%;
+        aspect-ratio: 1/1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+
+
+        .button{
+            display: flex;
+            gap: 1rem;
+            button{
+                font-size: 1.5rem;
+                padding: .5rem .5rem;
+                border-radius: 1rem;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+        }
+
+
+
+    }
+}
