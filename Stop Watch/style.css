@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: whitesmoke;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+body main #display {
+  font-size: 3rem;
+  border: 1px solid whitesmoke;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}
+body main #button {
+  display: flex;
+  gap: 2rem;
+}
+body main #button button {
+  font-size: 3rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+}
+body main #button #startBtn:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+body main #button #stopBtn:hover {
+  background-color: rgb(241, 117, 117);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
