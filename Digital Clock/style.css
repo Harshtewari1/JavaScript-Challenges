@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html div, body div {
+  color: wheat;
+  font-size: 3rem;
+  border: 0.2rem solid white;
+  padding: 2rem 2rem;
+  border-radius: 2rem;
+}/*# sourceMappingURL=style.css.map */
