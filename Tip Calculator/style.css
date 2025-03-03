@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+body main h2 {
+  font-size: 4rem;
+  color: white;
+}
+body main input {
+  padding: 0.5rem 1rem;
+}
+body main select {
+  padding: 0.5rem 1rem;
+}
+body main button {
+  padding: 0.5rem 1rem;
+}
+body main button:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+body main #result {
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */

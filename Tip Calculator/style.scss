@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    main{
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        
+
+        h2{
+            font-size: 4rem;
+            color: white;
+        }
+        input{
+            padding: .5rem 1rem;
+        }
+        select{
+            padding: .5rem 1rem;
+        }
+        button{
+            padding: .5rem 1rem;
+        }
+        button:hover{
+            background-color: greenyellow;
+            cursor: pointer;
+        }
+        #result{
+            color: aliceblue;
+        }
+    }
+}
