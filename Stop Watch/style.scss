@@ -45,6 +45,11 @@ body{
                 background-color: rgb(241, 117, 117);
                 cursor: pointer;
             }
+
+            #reset:hover{
+                cursor: pointer;
+                background-color: rgb(237, 237, 182);
+            }
         }
     }
 }

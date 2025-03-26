@@ -44,4 +44,8 @@ body main #button #startBtn:hover {
 body main #button #stopBtn:hover {
   background-color: rgb(241, 117, 117);
   cursor: pointer;
+}
+body main #button #reset:hover {
+  cursor: pointer;
+  background-color: rgb(237, 237, 182);
 }/*# sourceMappingURL=style.css.map */
