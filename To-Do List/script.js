@@ -11,7 +11,6 @@ function addTask() {
     li.innerHTML =
         `<spam>${taskInput.value}</spam>
     <div>
-    <button onclick = "completeTask(this)">Yes</button>
     <button onclick = "deleteTask(this)">Delete</button>
     </div>
     `;
@@ -21,10 +20,6 @@ function addTask() {
 
 }
 
-function completeTask(button) {
-    const task = button.parentElement.parentElement;
-    task.classList.toggle('completed');
-}
 
 function deleteTask(button) {
     const task = button.parentElement.parentElement;
