@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image{
+    height: 400px;
+    width: 300px;
+    position: relative;
+}
+
+.like{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    transform: translate(300%,300%);
+    border-radius: 50%;
+    transition: all linear 0.3s;
+    opacity: 0;
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
